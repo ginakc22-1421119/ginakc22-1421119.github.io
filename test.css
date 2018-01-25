@@ -1,0 +1,105 @@
+#Header {
+    border: solid 8px black;
+    width: 500px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    outline-style: double;
+        outline-color: green;
+        outline-width: thick;
+
+}
+
+#LeftNav {
+    border: solid 8px black;
+    width: 400px;
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0px;
+    padding-bottom: 8px;
+
+        
+        outline-style: dashed;
+        outline-color: green;
+
+
+}
+#Content {
+    border: solid 8px black;
+    width: 700px;
+    text-align: center;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline-style: dotted;
+        outline-color: green;
+        outline-width: thick;
+}
+
+#Footer{
+    border: solid 8px black;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0px;
+    text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+h1 {
+    font-size: 60px; 
+    font-family: "Passion One"; 
+    color: #FFBC00; 
+    font-weight: bold;
+}
+
+p {
+    font-weight: bold;
+    color: white;
+    font-family: arial;
+}
+
+div {
+    background-color: #8e41d5;
+
+}
+
+h3 {
+    color: #ffbc00;
+    font-size: 50px;
+    font-family: "Passion One"
+    margin-bottom: 0px;
+
+}
+
+body {
+    background-color: gold
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+a:visited {
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: gold;
